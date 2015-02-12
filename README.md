@@ -3,4 +3,4 @@
 
 Textbook written and maintained by Staff/Faculty of E 115
 
-[Online Text](http://wwodrowbarlow.github.io/e115/text/)
+[Online Text](http://woodrowbarlow.github.io/e115/text/)
