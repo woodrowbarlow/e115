@@ -377,7 +377,7 @@ The following code:
 ```HTML
 <p>
     This is a paragraph. There is an image below this text. <br />
-    <img src="https://www.google.com/images/srpr/logo11w.png" />
+    <img src="http://brand.ncsu.edu/img/2x1-brick.png" />
 </p>
 ```
 
@@ -385,7 +385,7 @@ Would produce the following result:
 
 > <p>
 >     This is a paragraph. There is an image below this text. <br />
->     <img src="images/google.png" />
+>     <img src="images/ncsu.png" />
 > </p>
 
 **Example: Using a Relative URL**
@@ -395,7 +395,7 @@ The following code:
 ```HTML
 <p>
     This is a paragraph. There is an image below this text. <br />
-    <img src="images/google.png" />
+    <img src="images/ncsu.png" />
 </p>
 ```
 
@@ -403,10 +403,10 @@ Would produce the following result:
 
 > <p>
 >     This is a paragraph. There is an image below this text. <br />
->     <img src="images/google.png" />
+>     <img src="images/ncsu.png" />
 > </p>
 
-> *Note*: For this example to work, you would need an image file called "google.png" to be inside of a folder called "images", and the folder called "images" would need to be in the same folder that your webpage is stored in.
+> *Note*: For this example to work, you would need an image file called "ncsu.png" to be inside of a folder called "images", and the folder called "images" would need to be in the same folder that your webpage is stored in.
 
 ## Links
 
@@ -435,14 +435,14 @@ The following code:
 
 ```HTML
 <p>
-    This is a paragraph. This paragraph contains a <a href="http://google.com">link</a>.
+    This is a paragraph. This paragraph contains a <a href="http://ncsu.edu">link</a>.
 </p>
 ```
 
 Would produce the following result:
 
 > <p>
->     This is a paragraph. This paragraph contains a <a href="http://google.com">link</a>.
+>     This is a paragraph. This paragraph contains a <a href="http://ncsu.edu">link</a>.
 > </p>
 
 **Example: Image Link in a New Tab**
@@ -452,8 +452,8 @@ The following code:
 ```HTML
 <p>
     Click the image below to open the google homepage in a new tab. <br />
-    <a href="http://google.com" target="_blank">
-        <img src="images/google.png" alt="Google Homepage" />
+    <a href="http://ncsu.edu" target="_blank">
+        <img src="images/ncsu.png" alt="NCSU Homepage" />
     </a>
 </p>
 ```
@@ -462,8 +462,8 @@ Would produce the following result:
 
 > <p>
 >     Click the image below to open the google homepage in a new tab. <br />
->     <a href="http://google.com" target="_blank">
->         <img src="images/google.png" alt="Google Homepage" />
+>     <a href="http://ncsu.edu" target="_blank">
+>         <img src="images/ncsu.png" alt="NCSU Homepage" />
 >     </a>
 > </p>
 
