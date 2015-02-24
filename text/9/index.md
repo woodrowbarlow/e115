@@ -554,11 +554,23 @@ The following code:
 
 Would produce the following result:
 
-> <ul>
->     <li>Milk</li>
->     <li>Eggs</li>
->     <li>Bread</li>
-> </ul>
+> <ol>
+>     <li>
+>         Homework
+>         <ul>
+>             <li>Physics Lab</li>
+>             <li>Calculus Webassign</li>
+>         </ul>
+>     </li>
+>     <li>Laundry</li>
+>     <li>
+>         Grocery Shopping
+>         <ul>
+>             <li>Milk</li>
+>             <li>Eggs</li>
+>        </ul>
+>     </li>
+> </ol>
 
 **Example: Layered (Nested) Lists**
 
@@ -566,17 +578,21 @@ The following code:
 
 ```HTML
 <ol>
-    <li>Homework</li>
-    <ul>
-        <li>Physics Lab</li>
-        <li>Calculus Webassign</li>
-    </ul>
+    <li>
+        Homework
+        <ul>
+            <li>Physics Lab</li>
+            <li>Calculus Webassign</li>
+        </ul>
+    </li>
     <li>Laundry</li>
-    <li>Grocery Shopping</li>
-    <ul>
-        <li>Milk</li>
-        <li>Eggs</li>
-    </ul>
+    <li>
+        Grocery Shopping
+        <ul>
+            <li>Milk</li>
+            <li>Eggs</li>
+        </ul>
+    </li>
 </ol>
 ```
 
