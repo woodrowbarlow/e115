@@ -1,3 +1,7 @@
+---
+title: Structural
+---
+
 ## Structural
 
 Because XHTML gives semantic meaning to data by categorizing it, sometimes applying a tag to something doesn't actually have a visual result on the rendered webpage. One example of this is categorizing chunks of code into categories like "navigation", "main", "footer", etc. Organizing code into these "categories" (sometimes called **containers**) is done by using any of the many **structural tags**. Organizing parts of your page into containers makes styling your page (using the techniques in chapter 10) easier and more flexible, and would make advanced web programming (with languages like JavaScript) easier. Additionally, a more semantically defined webpage is parsed more easily by computers - this will help search engines report accurate descriptions of your page, and will help users of disability software like screen readers to get a more accurate experience when visiting your page.
