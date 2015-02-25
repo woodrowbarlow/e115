@@ -1,3 +1,7 @@
+---
+title: Tags
+---
+
 ## Tags
 
 Tags are the basis of markup languages like XHTML. **Tags** define elements and sections within the document. A tag can be used to insert an image, a link, a paragraph of text, a navigation bar, or many other things into your web page. Tags can also be used to define semantic categories, which often do not have a direct visual representation on the webpage, but which allows the content to be structured in a meaningful way.
