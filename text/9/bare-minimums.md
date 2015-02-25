@@ -1,3 +1,7 @@
+---
+title: Bare Minimums
+---
+
 ## Bare Minimums
 
 In order to be XHTML5 compliant, there is a basic **skeleton framework** that must be in place. The purpose of this skeleton is to declare which specification version of XHTML we are using, to define some biographical data about the webpage, and to establish the requisite structural categories of the webpage.
