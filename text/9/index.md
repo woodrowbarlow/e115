@@ -598,19 +598,13 @@ The following code:
 
 Would produce the following result:
 
-> <ol>
->     <li>Homework</li>
->     <ul>
->         <li>Physics Lab</li>
->         <li>Calculus Webassign</li>
->     </ul>
->     <li>Laundry</li>
->     <li>Grocery Shopping</li>
->     <ul>
->         <li>Milk</li>
->         <li>Eggs</li>
->     </ul>
-> </ol>
+> 1. Homework
+>  * Physics Lab
+>  * Calculus Webassign
+> 2. Laundry
+> 3. Grocery Shopping
+>  * Milk
+>  * Eggs
 
 ## Tables
 
