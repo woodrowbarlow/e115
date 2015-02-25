@@ -1,3 +1,7 @@
+---
+title: Images
+---
+
 ## Images
 
 Images are used in websites to achieve visual effects which are not possible (or are difficult) with text alone. Website commonly use images for graphics elements such as a logo, or for features such as an online photo album.
