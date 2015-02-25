@@ -1,3 +1,7 @@
+---
+title: Account Preparation
+---
+
 ## Account Preparation
 
 Full-time students at NCSU with active Unity accounts are allocated space on the AFS servers from which to host a small website, if they so desire. In order to take advantage of this offering, you must manually configure your account and storage space first.
