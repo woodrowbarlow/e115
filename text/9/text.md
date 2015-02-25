@@ -1,3 +1,7 @@
+---
+title: Text
+---
+
 ## Text
 
 In XHTML, text has no meaning on its own - all meaning must be derived from tags that are applied to the text. When text has meaning, the browser can decide an intelligent way to display that text. The following tags are used to structure text within a webpage.
