@@ -13,6 +13,7 @@ title: Basic Web Pages
  * [Links](#links)
  * [Lists](#lists)
  * [Tables](#tables)
+ * [Structural](#structural)
 
 ## Introduction
 
@@ -723,3 +724,5 @@ Would produce the following result:
 >         <td>Blue</td>
 >     </tr>
 > </table>
+
+## Structural
