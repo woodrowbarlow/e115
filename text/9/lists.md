@@ -1,3 +1,7 @@
+---
+title: Lists
+---
+
 ## Lists
 
 Lists are one of the options for organizing short pieces of information. Depending on the type of list used, a list might be presented as a series of bullet points or as a series of numbered items. Lists can be layered, and types of lists can be combined. In XHTML, there are three tags used in combination to create lists.
