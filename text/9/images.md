@@ -30,7 +30,7 @@ The following code:
 ```HTML
 <p>
     This is a paragraph. There is an image below this text. <br />
-    <img src="http://brand.ncsu.edu/img/2x1-brick.png" />
+    <img src="http://brand.ncsu.edu/img/2x1-brick.png" alt="NCSU Logo" />
 </p>
 ```
 
@@ -38,7 +38,7 @@ Would produce the following result:
 
 > <p>
 >     This is a paragraph. There is an image below this text. <br />
->     <img src="images/ncsu.png" />
+>     <img src="images/ncsu.png" alt="NCSU Logo" />
 > </p>
 
 **Example: Using a Relative URL**
@@ -48,7 +48,7 @@ The following code:
 ```HTML
 <p>
     This is a paragraph. There is an image below this text. <br />
-    <img src="images/ncsu.png" />
+    <img src="images/ncsu.png" alt="NCSU Logo" />
 </p>
 ```
 
@@ -56,7 +56,7 @@ Would produce the following result:
 
 > <p>
 >     This is a paragraph. There is an image below this text. <br />
->     <img src="images/ncsu.png" />
+>     <img src="images/ncsu.png" alt="NCSU Logo" />
 > </p>
 
 > *Note*: For this example to work, you would need an image file called "ncsu.png" to be inside of a folder called "images", and the folder called "images" would need to be in the same folder that your webpage is stored in.
