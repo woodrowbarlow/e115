@@ -1,3 +1,7 @@
+---
+title: Links
+---
+
 ## Links
 
 Websites are rarely composed of a single web page. Usually, there are many inter-connected pages, and users navigate between these pages by clicking on links. On the web, a **link** is something which can be clicked with the mouse in order to re-direct the browser to a new page. Usually, a link is presented as blue, underlined text. Sometimes, a link is a clickable image.
