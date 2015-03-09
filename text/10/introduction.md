@@ -21,3 +21,11 @@ Because CSS is constantly evolving (even faster than XHTML), this textbook will 
 ### Important Programs
 
 CSS files are written using plain-text editors, just like XHTML files. Most text editors which are specialized for editing HTML and XHTML documents also have specialized features for editing CSS files. One such recommended text editor for Windows users is [Notepad++](http://notepad-plus-plus.org/); an equivalent software for Mac OSX is [TextWrangler](http://www.barebones.com/products/textwrangler/download.html).
+
+### Learning Objectives
+
+ * Learn to override the browser's default presentation style using CSS rules.
+ * Understand selector scope, and utilize name, id, and class selectors.
+ * Learn to define sizes and colors on the screen using accepted units.
+ * Create a consistent style across multiple web pages using an external stylesheet.
+ * Use the style attribute to handle edge cases.
