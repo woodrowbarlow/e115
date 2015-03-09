@@ -1,5 +1,5 @@
 ---
-title: Setup
+title: External Stylesheets
 ---
 
 ### Setting Up an External Stylesheet
