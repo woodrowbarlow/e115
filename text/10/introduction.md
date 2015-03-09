@@ -1,8 +1,8 @@
 ---
-title: Introduction
+title: Introduction to CSS
 ---
 
-## Introduction
+## Introduction to CSS
 
 ### What is CSS?
 
