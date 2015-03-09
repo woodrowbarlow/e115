@@ -1,3 +1,7 @@
+---
+title: Formatting Tags
+---
+
 ## XHTML Formatting Tags
 
 XHTML has a few in-line text tags that are rendered in the browser as basic text effects (like bold or italic text). These tags do not utilize CSS (although the browser could be told to render them differently via CSS). These tags are detailed below because of their usefulness in styling a webpage's content.
