@@ -8,6 +8,10 @@ title: CSS and Styling
  * [Formatting Tags](formatting-tags.html)
  * [Measurement Units](measurement-units.html)
  * [CSS Rules](css-rules.html)
+ * [In-Line Styling](in-line-styling.html)
+ * [External Stylesheets](external-stylesheets.html)
+ * [CSS Selectors](css-selectors.html)
+ * [Property Chart](property-chart.html)
 
 ## Introduction to CSS
 
@@ -175,3 +179,123 @@ border: 2px solid #FF0000;
 ```
 
 The property is "border", and the values are the width, style, and color of the border. To view a list of the most common properties and notes regarding how they are used, view the property chart section of this chapter.
+
+## In-Line Styling
+
+The simplest way of applying CSS rules to an element is to simply inject the rule directly into the element's tag in the XHTML document. This is done by means of an attribute which has not been previously discussed, but which can be applied to any XHTML tag: the style attribute. The value of that attribute is a list of CSS rules, and those CSS rules will be applied to the element in question.
+
+> *Note*: The examples below use rules which contain properties that have not been introduced. To read about these properties and how they can be used, view the Property Chart section at the end of this chapter.
+
+**Example: Making a Paragraph use Bold Arial Font**
+
+The following code:
+
+```html
+<p style="font-family: Arial; font-weight: bold;">
+  This paragraph has bold text in the Arial font.
+</p>
+```
+
+Would produce the following result:
+
+> <p style="font-family: Arial; font-weight: bold;">
+>   This paragraph has bold text in the Arial font.
+> </p>
+
+**Example: Adding a Border to an Image**
+
+The following code:
+
+```html
+<img src="images/ncsu.png" alt="NCSU Logo" style="border: 3px dashed #000000" />
+```
+
+Would produce the following result:
+
+> <img src="../9/images/ncsu.png" alt="NCSU Logo" style="border: 3px dashed #000000" />
+
+> *Note*: Technically, the semicolon on the *last* rule in a list of rules is optional; therefore, it is common to omit the semicolon when using in-line styling to apply only one rule. Whether or not to omit it in this case comes down to personal preference.
+
+### Why Use In-Line Styling?
+
+Although it is the easiest method of styling an element, in-line styling does not help achieve one of the biggest advantages of CSS: the ability to make a change in one file in order to update the style of an entire website. If an entire website were styled using in-line styling, an update would require modifying each and every page. It is introduced here as a simple way of understanding how CSS rules work, but, in practical application, in-line styling is rarely used except to handle edge cases on certain pages which are exceptions to the website's overall style.
+
+## Setting Up an External Stylesheet
+
+CSS is usually used by creating a stylesheet file and linking your XHTML code to that file. The stylesheet file will contain a list of rules, and selectors which define what parts of the XHTML code the rules apply to. To begin, create a new blank text file, save it with a `.css` file extension, and store it somewhere in your `www` directory. Now you will need to add a special XHTML tag (shown below) somewhere in the head section of any webpages which will use your CSS styles. This tag links your webpage to your stylesheet.
+
+```html
+<link href="style.css" rel="stylesheet" type="text/css" />
+```
+
+Make sure that you've put this tag in the head section of your webpage (not the body section), and that the value of the `href` attribute contains a path to the CSS file you've just created. Repeat this for any pages you want to style with your CSS file.
+
+### Stylesheet Syntax
+
+The stylesheet is organized into "blocks" of CSS rules. Each block is composed of a selector, followed by a list of rules enclosed with curly braces (`{` and `}`). A CSS **selector** is a way of defining the scope of the rules; in other words, a selector defines to which elements the rules will be applied. The example below shows the generic syntax of a stylesheet.
+
+```css
+/* this is a block of CSS rules */
+selector {
+  property: value;
+  property: value;
+}
+
+/* this is another block */
+selector {
+  property: value;
+  property: value;
+}
+```
+
+> *Note*: In CSS, lines that begin with `/*` and end with `*/` are *comments*. Just like XHTML comments, they have no impact on the webpage; they are only displayed in the code and are meant to add documentation or any other notes to the code.
+
+## CSS Selectors
+
+### Type Selector
+
+There are a few different types of selectors. The simplest selector is the type selector. The **type selector** will select all XHTML tags on a page which are of a certain type. For example, this selector is appropriate for selecting all images on the page. To use the type selector
+
+> *Note*: For more information on the type selector, view the official [W3C Documentation](http://www.w3.org/TR/CSS21/selector.html#type-selectors).
+
+**Example: Making all Paragraphs use Blue Text**
+
+If your XHTML contains the following code:
+
+```html
+<p>
+  Hello, world.
+</p>
+<p>
+  This is a paragraph.
+</p>
+```
+
+And is linked to a CSS file containing the following code:
+
+```css
+p {
+  color: #0000FF;
+}
+```
+
+Then the webpage will appear like this:
+
+> <p style="color:#0000FF;">
+>   Hello, world.
+> </p>
+> <p style="color:#0000FF;">
+>   This is a paragraph.
+> </p>
+
+### Class Selector
+
+TODO
+
+### ID Selector
+
+TODO
+
+## Property Chart
+
+TODO
